@@ -13,7 +13,6 @@ The current value should be displayed with an LED ring for each slider on the pa
 
 [1] A picture of this can be found on page 11 of the slide set from [TDD demystified] (https://www.xpdays.de/2018/downloads/174-tdd-demystified/tdd_demystified.pdf)
 [2] Technically, an MQTT message has to be sent to the MQTT broker for each LED, to which the hardware is also connected. The message must include the topic "some/led/<led-number>/rgb" and as payload have the color as a hex value ("#RRGGBB").
-
 [3] If you do not want to work out how to send MQTT messages yourself (is not the aim of this kata), you can use the ["simplified" branch] (https://github.com/hellman-and-hero/musa-client/tree/simplified) and there the 
 [MqttSender] (https://github.com/hellman-and-hero/musa- client / blob / simplified / src / main / java / rgbledring / MqttSender.java). If you don't have an MQTT broker, you can either simply install mosquitto, [mosquitto via docker] (https://hub.docker.com/_/eclipse-mosquitto) (_docker run -it -p 1883: 1883 -p 9001: 9001 eclipse-mosquitto_) or a [public MQTT broker] (https://github.com/mqtt/mqtt.org/wiki/public_brokers).
 
