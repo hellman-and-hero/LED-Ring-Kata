@@ -26,7 +26,7 @@ The current value should be displayed with an LED ring for each slider on the pa
 3. Second ring
  Analogous to the first ring, the value of the second slider should now be visualized on the second ring. Here too, initially without colors
 
-** Have you implemented the requirements? Great! Then on to the next page! **
+**Have you implemented the requirements? Great! Then on to the next page!**
 
 ### Sprint Backlog Sprint #2
 
@@ -34,14 +34,14 @@ The current value should be displayed with an LED ring for each slider on the pa
 2. Overload
  The ring should be filled from 0-90 as before from 0-100, i.e. 90 means "all LEDs on" (formerly 100), 45 means "the first half of the LEDs is on (formerly 50). If more than 90, **all** LEDs **light up red**. The threshold value (90) should be variable (e.g. 80, 95 or any other value)
 
-** Have you implemented the requirement? Great! Then on to the next page! **
+**Have you implemented the requirement? Great! Then on to the next page!**
 
 ### Sprint Backlog Sprint #3
 
 1. Peak hold
  When the level drops, the LED that signaled the maximum value should continue to glow for one second
 
-** Have you implemented the requirement? Great! Then on to the next page! **
+**Have you implemented the requirement? Great! Then on to the next page!**
 
 ### Sprint Backlog Sprint #4
 
@@ -52,7 +52,7 @@ The current value should be displayed with an LED ring for each slider on the pa
 - Overload on / off (including individual threshold value)
 - Peak hold on / off
 
-** Have you implemented the requirement? Congratulations! The product owner has no further requirements. On the next page you will find a few more comments **
+**Have you implemented the requirement? Congratulations! The product owner has no further requirements. On the next page you will find a few more comments**
 
 ## Remarks
 - Did you stumble across the index of the LEDs (description speaks of LEDs 1-n, but the hardware assumes zero-based numbering)? This is only noticeable through trial and error or integration tests with the real hardware (or our simulated hardware).
