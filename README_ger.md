@@ -12,8 +12,7 @@ Pro Schieberegler auf dem Panel soll der jeweils aktuelle Wert mit je einem LED-
 - Da Du die echte Hardware nicht zur Verfügung hast, kannst Du [die Softwaresimulation der Hardware](https://github.com/hellman-and-hero/tdd-demy-hardware-sim) nutzen. Die Simulation stellen wir im Rahmen der Bearbeitung der Kata der echten Hardware gleich (was wir normalerweise nicht tun dürfen, da sich die Simulation anders verhalten kann/könnte als die echte Hardware).
 
 [1] Eine bildliche Darstellung hiervon befindet sich auf Seite 11 des Foliensatzes von [TDD demystified](https://www.xpdays.de/2018/downloads/174-tdd-demystified/tdd_demystified.pdf)
- [2] Technisch ist je LED eine MQTT Nachricht an den MQTT-Broker zu senden, mit welchem auch die Hardware verbunden ist. Die Nachricht muss das Topic "some/led/<led-nummer>/rgb" und als payload die Farbe als Hexwert ("#RRGGBB") haben.
-
+[2] Technisch ist je LED eine MQTT Nachricht an den MQTT-Broker zu senden, mit welchem auch die Hardware verbunden ist. Die Nachricht muss das Topic "some/led/<led-nummer>/rgb" und als payload die Farbe als Hexwert ("#RRGGBB") haben.
 [3] Falls Du Dir das Versenden von MQTT-Nachrichten nicht selbst erarbeiten möchtest (ist nicht Ziel dieser Kata), kannst Du auf dem ["simplified" branch](https://github.com/hellman-and-hero/musa-client/tree/simplified) starten und dort die Klasse [MqttSender](https://github.com/hellman-and-hero/musa-client/blob/simplified/src/main/java/rgbledring/MqttSender.java) nutzen. Hast Du keinen MQTT Broker, kannst Du Dir entweder einfach mosquitto installieren, [mosquitto via docker](https://hub.docker.com/_/eclipse-mosquitto) (_docker run -it -p 1883:1883 -p 9001:9001 eclipse-mosquitto_) oder einen [öffentlichen MQTT-Broker](https://github.com/mqtt/mqtt.org/wiki/public_brokers) nutzen.
 
 ### Sprint Backlog Sprint #1
