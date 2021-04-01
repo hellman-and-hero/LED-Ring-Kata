@@ -20,7 +20,7 @@ The current value should be displayed with an LED ring for each slider on the pa
 
 ### Sprint Backlog Sprint #1
 
-1. The value of the first slider should be visualized on the first ring. In Sprint # 1, colors are not yet important, it is sufficient if LEDs can be switched on (#FFFFFF) and off (# 000000)!
+1. The value of the first slider should be visualized on the first ring. In Sprint # 1, colors are not yet important, it is sufficient if LEDs can be switched on (#FFFFFF) and off (#000000)!
 2. Direction of the LEDs
  The direction can be configured for each ring (clockwise or counter-clockwise)
 3. Second ring
