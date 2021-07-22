@@ -43,8 +43,6 @@ The current value should be displayed with an LED ring for each slider on the pa
 
 2. So that the hardware can also be mounted on the ceiling, the start/end of the rings should be configurable. Also a lateral mounting on the wall should be possible. So in the first case (ceiling) for rings with 8 LEDs the order of the LEDs to be switched would be 5,6,7,8,1,2,3,4 and in the second case (wall right 7,8,1,2,3,4,5,6 or wall left 3,4,5,6,7,8,1,2). This setting applies to the entire hardware and thus to all rings equally. 
 
-Translated with www.DeepL.com/Translator (free version)
-
 **Have you implemented the requirement? Great! Then on to the next page!**
 
 ### Sprint Backlog Sprint #4
@@ -55,6 +53,7 @@ Translated with www.DeepL.com/Translator (free version)
 - Clockwise or counterclockwise direction
 - Overload on / off (including individual threshold value)
 - Peak hold on / off
+- Configure position of first led for the rings
 
 **Have you implemented the requirement? Congratulations! The product owner has no further requirements. On the next page you will find a few more comments**
 
