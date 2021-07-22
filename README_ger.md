@@ -52,6 +52,7 @@ Pro Schieberegler auf dem Panel soll der jeweils aktuelle Wert mit je einem LED-
 - Richtung im oder gegen den Uhrzeigersinn
 - Overload an/aus (inkl. individuellem Schwellwert)
 - Peak-Hold an/aus
+- Konfiguration der Position der ersten LED der Ringe
 
 **Du hast die Anforderung umgesetzt? Herzlichen Glückwunsch! Der Product Owner hat keine weiteren Anforderungen. Auf der nächsten Seite findest Du noch ein paar Anmerkungen**
 
