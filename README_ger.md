@@ -39,7 +39,9 @@ Pro Schieberegler auf dem Panel soll der jeweils aktuelle Wert mit je einem LED-
 
 1. Peak-Hold
  Bei Abfallen des Levels soll die LED welche den Maximalwert signalisierte, noch eine Sekunde lang nachleuchten
-
+2. Overhead
+ Damit die Hardware auch an der Decke montiert werden kann soll Start/Ende der Ringe konfigurierbar sein. Auch eine seitliche Montage an der Wand soll möglich sein. So wären im ersten Fall (Decke) bei Ringen mit 8 LEDs die Reihenfolge der zu schaltenden LEDs 5,6,7,8,1,2,3,4 und im zweiten (Wand rechts 7,8,1,2,3,4,5,6 bzw. Wand links 3,4,5,6,7,8,1,2). Diese Einstellung gilt für die gesamte Hardware und damit für alle Ringe gleichermasen. 
+ 
 **Du hast die Anforderung umgesetzt? Klasse! Dann weiter zur nächsten Seite!**
 
 ### Sprint Backlog Sprint #4
